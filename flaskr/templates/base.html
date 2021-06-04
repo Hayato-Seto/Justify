@@ -1,0 +1,14 @@
+<html>
+<meta charset="utf-8">
+<title>
+    {% block title %}{% endblock %} - Justifyers
+</title>
+
+<body>
+    {% block content %}{% endblock %}
+    {% for message in get_flashed_messages() %}
+    <p>{{ message }}</p>
+    {% endfor %}
+</body>
+
+</html>

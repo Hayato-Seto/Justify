@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+calculate
+{% endblock %}
+
+{% block content %}
+<form method="post">
+    この度、私めは<br>
+    <label for="OneWay">片道</label>
+    <input type="number" name="value1" id="OneWay">
+    <label for="OneWay">分</label><br>
+    かかる道のりを<br>
+    <input type="number" name="value2" id="Late">
+    <label for="Late">分</label><br>
+    遅刻しましたことを謝罪いたします。
+    <input type="submit" value="Justify!!">
+</form>
+<hr noshade>
+{% endblock %}
