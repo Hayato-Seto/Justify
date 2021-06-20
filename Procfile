@@ -1,1 +1,1 @@
-web: gunicorn fraskr:create_app --log-file=-
+web: gunicorn fraskr:create_app
