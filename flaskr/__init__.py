@@ -4,7 +4,6 @@ import os
 
 app = Flask(__name__, instance_relative_config=True)
 app.secret_key = os.urandom(24)
-# app.secret_key = "pACeg3URhtWCVwh7"
 
 
 @app.route('/')
